@@ -260,3 +260,54 @@ footer .news_resume{
     font-size: 12px;
     margin-top: 30px;
 }
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.MM_Line{
+    height: 4px;
+    background-color: #BAD1FD;
+}
+@media (max-width: 600px){
+    .banner_headline h1{
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 55px;
+    }
+    .banner_headline h2{
+        margin-left: 20px;
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #FFF;
+        width: 100%;
+        left: 0;
+    }
+    header{
+        height: auto;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+    .menuMobile:hover{
+        cursor: pointer;
+    }
+}
